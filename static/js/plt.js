@@ -16,7 +16,6 @@ d3.json(url).then(function(sampleN) {
     var firstS = sampleN[0]
     optionChanged(firstS)
     sele.html("");
-    // charts(firstS)
 });
 // ----------------------------------
 function optionChanged(newSample){
